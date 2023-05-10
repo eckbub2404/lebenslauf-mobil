@@ -46,14 +46,21 @@
     text-align: center;
     }
     
-    header img {
-    max-width: 100%;
-    height: auto;
-    margin: 10px 0;
-    display: block;
-    border-radius: 50%;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-    }
+   header img {
+  max-width: 100%;
+  height: auto;
+  margin: 10px 0;
+  display: block;
+  border-radius: 50%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 600px) {
+  header img {
+    max-width: 150px; /* oder eine andere Breite, die gut passt */
+  }
+}
+
     
     section {
     margin-bottom: 30px;
